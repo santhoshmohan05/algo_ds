@@ -1,4 +1,7 @@
 ## https://practice.geeksforgeeks.org/problems/preorder-traversal-and-bst4006/
+## monotonic stack, have a non-increasing stack
+## pop all elements lower than incoming value and name last poped as root
+
 class Solution:
     def canRepresentBST(self, arr, N):
         # code here
